@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web studio 04</title>
+    <title>Web studio 05</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -57,7 +57,7 @@
       <section class="hero overlay">
         <div class="container-hero">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="button btn-hero">
+          <button type="button" class="button btn-hero" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -442,5 +442,18 @@
         </div>
       </div>
     </footer>
+<!----------------- модальное окно ------------------->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="button-modal-close" type="button">
+          <svg class="icon" width="11" height="11">
+            <use href="./images/sprite.svg#Vector"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
