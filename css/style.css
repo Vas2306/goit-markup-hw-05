@@ -17,7 +17,7 @@ body{
     color: var(--color-text);
 
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em; */
 }
 /* Убираем точки у всех списков списков
 Обнуляем все дефолтные margine всем спискам */
@@ -144,7 +144,6 @@ span {
     color: var(--color-acent);
     fill: var(--color-acent);
 }  
-
 
 .auth-nav .logo {
     margin-right: 10px;
